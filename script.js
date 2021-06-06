@@ -1,4 +1,3 @@
-let radios = document.getElementsByName('slide-btn');
 let buttons = document.getElementsByName('nav-btn');
 let currentSlide = 0;
 
