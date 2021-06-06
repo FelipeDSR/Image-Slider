@@ -4,9 +4,43 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Image Silder</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Image Slider</title>
 </head>
 <body>
-  <h1>Oi</h1>
+  <!-- image slider start -->
+  <section class="slider">    
+    <div class="slides">
+      <input type="radio" name="slide-btn" id="motobike-1" checked>
+      <input type="radio" name="slide-btn" id="motobike-2">
+      <input type="radio" name="slide-btn" id="motobike-3">
+      <input type="radio" name="slide-btn" id="motobike-4">
+
+      <div class="slide first">
+        <img src="./images/motobike-1.jpg" id="img1" alt="motobike-1">
+      </div>
+      <div class="slide">
+        <img src="./images/motobike-2.jpg" id="img2" alt="motobike-2">
+      </div>
+      <div class="slide">
+        <img src="./images/motobike-3.jpg" id="img3" alt="motobike-3">
+      </div>
+      <div class="slide">
+        <img src="./images/motobike-4.jpg" id="img4" alt="motobike-4">
+      </div>
+    </div>
+    
+    <nav class="navigation">
+      <label name="nav-btn" class="active" for="motobike-1"></label>
+      <label name="nav-btn" for="motobike-2"></label>
+      <label name="nav-btn" for="motobike-3"></label>
+      <label name="nav-btn" for="motobike-4"></label>
+    </nav>
+
+  </section>
+  <!-- image slider end -->
+
+  <!-- script  -->
+  <script src="script.js"></script>
 </body>
 </html>
