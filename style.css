@@ -9,7 +9,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('./images/road.jpg') no-repeat bottom;
   background-size: cover;
 }
 
